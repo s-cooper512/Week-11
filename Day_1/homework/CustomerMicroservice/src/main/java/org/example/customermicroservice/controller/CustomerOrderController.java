@@ -13,9 +13,9 @@ public class CustomerOrderController {
     @Autowired
     private RestTemplate restTemplate; // Assuming RestTemplate is configured
 
-    @GetMapping("/Customers/{id}/Orders")
+    @GetMapping("/customers/{id}/orders")
     public ResponseEntity<String> getAllOrdersByCustomer(@PathVariable Long id) {
-        String orderServiceUrl = "LOCALHOST:8081/orders/customer/" + id;
+        String orderServiceUrl = "LOCALHOST:8081/orders/" + id;
         ResponseEntity<String> response = restTemplate.getForEntity(orderServiceUrl, String.class);
         return ResponseEntity.ok(response.getBody());
     }
