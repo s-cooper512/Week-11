@@ -1,4 +1,4 @@
-package org.example.customermicroservice.model;
+package org.example.customerthingagain.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

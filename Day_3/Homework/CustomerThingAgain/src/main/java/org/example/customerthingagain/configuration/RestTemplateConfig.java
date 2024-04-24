@@ -1,4 +1,4 @@
-package org.example.customermicroservice.configuration;
+package org.example.customerthingagain.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

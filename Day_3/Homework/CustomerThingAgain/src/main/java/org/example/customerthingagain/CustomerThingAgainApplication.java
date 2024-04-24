@@ -1,13 +1,13 @@
-package org.example.customermicroservice;
+package org.example.customerthingagain;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CustomerMicroserviceApplication {
+public class CustomerThingAgainApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CustomerMicroserviceApplication.class, args);
+        SpringApplication.run(CustomerThingAgainApplication.class, args);
     }
 
 }

@@ -1,7 +1,7 @@
-package org.example.customermicroservice.controller;
+package org.example.customerthingagain.controller;
 
-import org.example.customermicroservice.model.Customer;
-import org.example.customermicroservice.service.CustomerService;
+import org.example.customerthingagain.model.Customer;
+import org.example.customerthingagain.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

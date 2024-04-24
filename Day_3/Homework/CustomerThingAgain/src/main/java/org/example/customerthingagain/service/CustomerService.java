@@ -1,7 +1,7 @@
-package org.example.customermicroservice.service;
+package org.example.customerthingagain.service;
 
-import org.example.customermicroservice.model.Customer;
-import org.example.customermicroservice.repository.ICustomerRepository;
+import org.example.customerthingagain.model.Customer;
+import org.example.customerthingagain.repository.ICustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

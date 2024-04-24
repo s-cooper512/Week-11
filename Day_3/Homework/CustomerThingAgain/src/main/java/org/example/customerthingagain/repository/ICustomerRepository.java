@@ -1,6 +1,6 @@
-package org.example.customermicroservice.repository;
+package org.example.customerthingagain.repository;
 
-import org.example.customermicroservice.model.Customer;
+import org.example.customerthingagain.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
